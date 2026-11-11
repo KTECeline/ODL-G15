@@ -1,0 +1,5 @@
+Model,Parameters,Train acc,Test acc,Gap,F1,ROC AUC
+Initial hybrid GRU,27329,0.9226,0.836,0.0866,0.8317,0.9039
+Tuned hybrid GRU,38801,0.844,0.8327,0.0113,0.8223,0.9157
+Baseline: random guess,0,0.5,0.5,0.0,0.5,0.5
+Baseline: same as today,0,0.6865,0.665,,0.5138,

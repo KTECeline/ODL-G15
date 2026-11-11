@@ -1,0 +1,25 @@
+# ---- Keras Tuner search folders (16 MB of trial checkpoints, re-created every run) ----
+my_dir/
+
+# ---- Jupyter / Python temp files ----
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# ---- Mac / editor files ----
+.DS_Store
+.vscode/
+.idea/
+
+# ---- Environments + secrets ----
+.venv/
+venv/
+.env
+
+# ---- Old / experimental models (not part of the final submission) ----
+model1_mlp_tuned.keras
+
+# KEEP (do not ignore):
+#   data/train_set.csv, data/test_set.csv  -> frozen data, BOTH models must use the same rows
+#   model1_hybrid_gru_tuned.keras           -> final tuned Model 1 (~0.5 MB)
+#   model1_results.csv                      -> final metrics table
